@@ -1,1 +1,1 @@
-# nodeAPI 😀
+# nodeSequelize 😀
