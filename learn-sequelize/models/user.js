@@ -4,6 +4,11 @@ const { SequelizeMethod } = require('sequelize/dist/lib/utils');
 module.exports = class User extends Sequelize.Model {
     static init(sequelize) {
         return super.init({
+            // id: {
+            //     type: Sequelize.INTEGER,
+            //     primaryKey : true,
+            //     autoIncrement: true,
+            // },
             name: {
                 type: Sequelize.STRING(20),
                 allowNull: false,
